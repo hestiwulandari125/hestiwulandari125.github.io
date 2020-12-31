@@ -1,0 +1,108 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+}
+    float: right;
+    list-style: none;
+    margin-top: 25px;
+}
+ul li{
+    display: inline-block;
+}
+ul li a{
+     text-decoration: none;
+     color: #fff;
+     padding: 5px 20px;
+     border: 1px solid;
+     transition: 0.6x;
+     margin-top: 10px;
+}
+ul li a:hover{
+     background-color: #fff;
+     color: #000;
+}
+.main{
+    max-width: 1200px;
+    margin: auto;
+}
+.logo img{
+    float: left;
+    width: 180px;
+    height: auto;
+}
+.title{
+    position: absolute;
+    top: 40%;
+    left: 30%;
+    transform: translate(-50%; -50%);
+}
+.title h1{
+    font-family: copperplate;
+    color: #fff;
+    font-size: 50px;
+}
+.title h3{
+    font-family: sans-serif;
+    color: lightgray;
+    font-size: 20px;
+    text-align: center;
+}
+.button {
+    position: absolute;
+    top: 58%;
+    left: 43%;
+    transform: translate(-50%; 50%)
+}
+.btn1 {
+    border: 1px solid;
+    padding: 10px 60px;
+    color: #fff;
+    text-decoration: none;
+    transition: 0.6s case;
+    border-radius: 5px;
+    margin: 10px;;
+}
+.btn1:hover{
+    background: #fff;
+    color: #000;
+}
+section {
+    padding: 50px 0;
+}
+section h3 {
+    text-align: center;
+    padding: 20px 0;
+    color: indigo;
+    margin-bottom: 25px;
+}
+.about {
+    padding-bottom: 100px;
+    background-color: #f9f9f9;
+}
+.about p {
+    color: #000;
+    word-spacing: 2px;
+    line-height: 25px;
+}
+.blog {
+    text-align: left;
+    padding-bottom: 100px;
+    margin: 40px;
+}
+.blog p {
+    font-family: verdana;
+    word-spacing: 2px;
+    line-height: 25px;
+    text-align: justify;
+}
+.blog img {
+    height: auto;
+    width: 400px;
+}
+footer {
+    padding: 30px 0;
+    background-color: rgb(60, 90, 121);
+    color: #fff;
+    text-align: center;
+}
